@@ -25,7 +25,7 @@ This project helps accounting students and individual investors quickly compare 
 - Execute the application: streamlit run app.py
 
 ## 6. Product Link / Demo
--Run the code locally to access the full interactive demo.
+- Run the code locally to access the full interactive demo.
 
 ## 7. Limitations & Next Steps
 - Limited to 6 large-cap companies and 3 years of data
