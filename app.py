@@ -49,14 +49,10 @@ filtered_df = df[
 ]
 
 # Dashboard Summary
-st.markdown(f"""
-<div style="background-color: #f0f2f6; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
-    <b>📌 Dashboard Summary</b><br>
-    Currently viewing <b>{len(filtered_df['conm'].unique())}</b> companies 
-    from <b>{year_range[0]}</b> to <b>{year_range[1]}</b>
-</div>
-""", unsafe_allow_html=True)
-
+st.info(f"""
+**📌 Dashboard Summary**  
+Currently viewing **{len(filtered_df['conm'].unique())}** companies from **{year_range[0]}** to **{year_range[1]}**
+""")
 # Key Metrics Summary
 st.subheader("🎯 Key Metrics Summary (Latest Year)")
 
